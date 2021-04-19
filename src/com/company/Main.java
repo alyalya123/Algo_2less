@@ -41,8 +41,8 @@ public class Main {
                 System.out.println("Price = " + intervalPrice);
                 break;
             } else if (i == arr.length - 1 && eachNextKgPrice == -1) {
-                System.out.println("Невозможно просчитать цену");
                 while (weight > intervalWeight) {
+                    System.out.println("Price can't be calculated");
                     System.out.println("Enter weight again, max weight for this city is = " + intervalWeight);
                     weight = input.nextDouble();
                 }
