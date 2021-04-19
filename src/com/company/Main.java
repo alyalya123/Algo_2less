@@ -43,7 +43,7 @@ public class Main {
             } else if (i == arr.length - 1 && eachNextKgPrice == -1) {
                 System.out.println("Невозможно просчитать цену");
                 while (weight > intervalWeight) {
-                    System.out.println("Введите вес заново, максимальный вес для этого города = " + intervalWeight);
+                    System.out.println("Enter weight again, max weight for this city is = " + intervalWeight);
                     weight = input.nextDouble();
                 }
                 System.out.println("Price = " + intervalPrice);
